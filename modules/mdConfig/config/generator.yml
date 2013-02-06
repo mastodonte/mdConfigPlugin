@@ -16,7 +16,8 @@ generator:
       fields:  ~
       list:    
         title:  Configuración
-#        actions: []
+        display: [nombre, clave, valor]
+        actions: []
         batch_actions: {}
         object_actions: { _edit: ~ }
         max_per_page: 50
