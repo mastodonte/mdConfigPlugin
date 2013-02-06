@@ -1,0 +1,8 @@
+md_config:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                mdConfig
+    module:               mdConfig
+    prefix_path:          /mdConfig
+    column:               id
+    with_wildcard_routes: true

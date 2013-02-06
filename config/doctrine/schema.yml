@@ -1,0 +1,15 @@
+mdConfig:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      autoincrement: true
+    nombre:
+      type: string(64)
+      notnull: true      
+    clave:
+      type: string(64)
+      notnull: true
+    valor:
+      type: text
+      notnull: true
