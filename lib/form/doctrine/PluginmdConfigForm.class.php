@@ -15,9 +15,8 @@ abstract class PluginmdConfigForm extends BasemdConfigForm
   {
 		parent::setup();
 
-	  	// Agregar Nombre y Clave //
       	$this->widgetSchema ['nombre'] -> setAttribute('readonly', 'readonly');
       	$this->widgetSchema ['clave']  -> setAttribute('readonly', 'readonly');
-
+      	$this->widgetSchema ['valor']  	= new sfWidgetFormTextArea();
   }
 }
